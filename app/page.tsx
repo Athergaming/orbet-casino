@@ -38,7 +38,7 @@ export default function Home() {
             width={350}
             height={350}
             quality={100}
-            className="absolute top-[50px] right-[50.3%] transform translate-x-1/2 z-0"
+            className="absolute top-[50px] right-[50%] transform translate-x-1/2 z-0"
         />
         <Image
           src="/images/decals/shining-light-left.png"
