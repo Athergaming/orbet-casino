@@ -43,16 +43,16 @@ export default function Home() {
         <Image
           src="/images/decals/shining-light-left.png"
           alt="light-left"
-          width={750}
-          height={750}
+          width={706}
+          height={755}
           quality={100}
           className="absolute top-[0] left-0"
         />
       <Image
           src="/images/decals/shining-light-right.png"
           alt="light-right"
-          width={750}
-          height={750}
+          width={706}
+          height={755}
           quality={100}
           className="absolute top-[0] right-0"
         />
@@ -116,7 +116,7 @@ export default function Home() {
                 <div className="inline-flex p-[1.1px] rounded-[8px] rotate-[-0.65deg] bg-gradient-to-br from-[#47CF47] to-[#2BC251]">
                   <Button
                     variant="ghost"
-                    className="w-[79px] h-[32px] px-[22px] py-[7.33px] rounded-[8px] bg-gradient-to-br from-[#47AD2E] to-[#008135] text-white text-[10px] font-[500] font-rubik"
+                    className="w-[79px] h-[32px] px-[22px] py-[7.33px] rounded-[8px] bg-gradient-to-br from-[#8ae849] to-[#5b9c2e] text-white text-[10px] font-[500] font-rubik"
                   >
                     Follow now
                   </Button>
@@ -159,7 +159,7 @@ export default function Home() {
                 <div className="inline-flex p-[1.1px] rounded-[8px] rotate-[-0.65deg] bg-gradient-to-br from-[#47CF47] to-[#2BC251]">
                   <Button
                     variant="ghost"
-                    className="w-[79px] h-[32px] px-[22px] py-[7.33px] rounded-[8px] bg-gradient-to-br from-[#47AD2E] to-[#008135] text-white text-[10px] font-[500] font-rubik"
+                    className="w-[79px] h-[32px] px-[22px] py-[7.33px] rounded-[8px] bg-gradient-to-br from-[#8ae849] to-[#5b9c2e] text-white text-[10px] font-[500] font-rubik"
                   >
                     Join now
                   </Button>
