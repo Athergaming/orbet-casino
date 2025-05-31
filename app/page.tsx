@@ -113,13 +113,19 @@ export default function Home() {
                     </p>
                   </div>
                 </div>
-                <div className="inline-flex p-[1.1px] rounded-[8px] rotate-[-0.65deg] bg-gradient-to-br from-[#47CF47] to-[#2BC251]">
-                  <Button
-                    variant="ghost"
-                    className="w-[79px] h-[32px] px-[22px] py-[7.33px] rounded-[8px] bg-gradient-to-br from-[#8ae849] to-[#5b9c2e] text-white text-[10px] font-[500] font-rubik"
+                <div className="z-50 inline-flex p-[1.1px] rounded-[8px] rotate-[-0.65deg] bg-gradient-to-br from-[#47CF47] to-[#2BC251]">
+                  <a
+                    href="https://x.com/orbetgg"
+                    target="_blank"
+                    rel="noopener noreferrer"
                   >
-                    Follow now
-                  </Button>
+                    <Button
+                      variant="ghost"
+                      className="hover:text-white/80 w-[79px] h-[32px] px-[22px] py-[7.33px] rounded-[8px] bg-gradient-to-br from-[#8ae849] to-[#5b9c2e] text-white text-[10px] font-[500] font-rubik cursor-pointer"
+                    >
+                      Follow now
+                    </Button>
+                  </a>
                 </div>
               </div>
               <div className="absolute top-[-20px] left-[-46px] flex items-center justify-center rounded-full overflow-hidden h-[149px] w-[128px]">
@@ -159,7 +165,7 @@ export default function Home() {
                 <div className="inline-flex p-[1.1px] rounded-[8px] rotate-[-0.65deg] bg-gradient-to-br from-[#47CF47] to-[#2BC251]">
                   <Button
                     variant="ghost"
-                    className="w-[79px] h-[32px] px-[22px] py-[7.33px] rounded-[8px] bg-gradient-to-br from-[#8ae849] to-[#5b9c2e] text-white text-[10px] font-[500] font-rubik"
+                    className="cursor-pointer w-[79px] h-[32px] px-[22px] py-[7.33px] rounded-[8px] bg-gradient-to-br from-[#8ae849] to-[#5b9c2e] text-white text-[10px] font-[500] font-rubik"
                   >
                     Join now
                   </Button>
